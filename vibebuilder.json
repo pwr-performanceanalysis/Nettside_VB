@@ -1,38 +1,22 @@
 [
   {
-    "name": "For Gyms",
-    "sections": []
-  },
-  {
-    "name": "For Teams",
-    "sections": []
-  },
-  {
-    "name": "For Clinicians",
-    "sections": []
-  },
-  {
-    "name": "About us",
-    "sections": []
-  },
-  {
-    "name": "New Page 5",
+    "name": "New Page 1",
     "sections": [
       {
-        "name": "Header",
-        "content": "<header style=\"padding: 1rem; background: #f1f1f1; text-align: center;\"><h1>My Website</h1></header>"
+        "name": "Navbar",
+        "content": "<nav style=\"background-color: #111827; padding: 20px; display: flex; justify-content: space-between; align-items: center;\"><div style=\"display: flex; align-items: center;\"><img src=\"logo_placeholder.png\" alt=\"Logo\" style=\"width: 50px; height: 50px;\"><span style=\"color: #ffffff; font-size: 1.2rem; margin-left: 10px;\">Your Brand</span></div><ul style=\"list-style: none; padding: 0; margin: 0; display: flex;\"><li style=\"margin: 0 15px;\"><a href=\"#\" style=\"color: #ffffff; text-decoration: none;\">Home</a></li><li style=\"margin: 0 15px;\"><a href=\"#\" style=\"color: #ffffff; text-decoration: none;\">Features</a></li><li style=\"margin: 0 15px;\"><a href=\"#\" style=\"color: #ffffff; text-decoration: none;\">Contact</a></li></ul></nav>"
       },
       {
         "name": "Hero",
-        "content": "<section style=\"padding: 4rem 1rem; text-align: center;\"><h2>Welcome to the Page</h2><p>This is a hero section.</p></section>"
+        "content": "<section style=\"background-color: #1f2937; padding: 100px 0; text-align: center; color: #ffffff;\"><h1 style=\"font-size: 3rem; margin-bottom: 20px;\">Headline that Grabs Attention</h1><p style=\"font-size: 1.5rem; margin-bottom: 30px;\">Subheadline providing context and value proposition.</p><button style=\"background-color: #374151; color: #ffffff; padding: 15px 30px; border: none; border-radius: 5px; font-size: 1.2rem; cursor: pointer;\">Call to Action</button></section>"
       },
       {
-        "name": "Main Content",
-        "content": "<main style=\"padding: 2rem 1rem;\"><p>Main content goes here.</p></main>"
+        "name": "Features",
+        "content": "<section style=\"background-color: #111827; padding: 80px 0; color: #ffffff;\"><div style=\"display: flex; justify-content: space-around; flex-wrap: wrap;\"><div style=\"width: 300px; margin: 20px; text-align: center;\"><img src=\"icon_placeholder.png\" alt=\"Icon\" style=\"width: 50px; height: 50px; margin-bottom: 10px;\"><h3>Feature 1</h3><p>Description of the first feature and its benefits.</p></div><div style=\"width: 300px; margin: 20px; text-align: center;\"><img src=\"icon_placeholder.png\" alt=\"Icon\" style=\"width: 50px; height: 50px; margin-bottom: 10px;\"><h3>Feature 2</h3><p>Description of the second feature and its benefits.</p></div><div style=\"width: 300px; margin: 20px; text-align: center;\"><img src=\"icon_placeholder.png\" alt=\"Icon\" style=\"width: 50px; height: 50px; margin-bottom: 10px;\"><h3>Feature 3</h3><p>Description of the third feature and its benefits.</p></div></div></section>"
       },
       {
         "name": "Footer",
-        "content": "<footer style=\"padding: 1rem; background: #333; color: white; text-align: center;\"><p>&copy; 2025 My Website</p></footer>"
+        "content": "<footer style=\"background-color: #111827; padding: 20px; text-align: center; color: #ffffff;\"><div style=\"margin-bottom: 10px;\"><img src=\"social_icon_placeholder.png\" alt=\"Social Icon\" style=\"width: 20px; height: 20px; margin: 0 5px;\"><img src=\"social_icon_placeholder.png\" alt=\"Social Icon\" style=\"width: 20px; height: 20px; margin: 0 5px;\"><img src=\"social_icon_placeholder.png\" alt=\"Social Icon\" style=\"width: 20px; height: 20px; margin: 0 5px;\"></div><p>&copy; 2023 Your Company. All rights reserved.</p></footer>"
       }
     ]
   }
