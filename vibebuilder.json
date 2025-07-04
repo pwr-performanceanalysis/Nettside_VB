@@ -14,5 +14,26 @@
   {
     "name": "About us",
     "sections": []
+  },
+  {
+    "name": "New Page 5",
+    "sections": [
+      {
+        "name": "Header",
+        "content": "<header style=\"padding: 1rem; background: #f1f1f1; text-align: center;\"><h1>My Website</h1></header>"
+      },
+      {
+        "name": "Hero",
+        "content": "<section style=\"padding: 4rem 1rem; text-align: center;\"><h2>Welcome to the Page</h2><p>This is a hero section.</p></section>"
+      },
+      {
+        "name": "Main Content",
+        "content": "<main style=\"padding: 2rem 1rem;\"><p>Main content goes here.</p></main>"
+      },
+      {
+        "name": "Footer",
+        "content": "<footer style=\"padding: 1rem; background: #333; color: white; text-align: center;\"><p>&copy; 2025 My Website</p></footer>"
+      }
+    ]
   }
 ]
