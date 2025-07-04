@@ -1,0 +1,17 @@
+/* Global Styles */
+body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Styles for Landing - Hero */
+body{background-color:#111;color:#eee;font-family:sans-serif;text-align:center;padding:50px;} h1{font-size:3rem;margin-bottom:1rem;} p{font-size:1.2rem;} .button {display:inline-block;padding:10px 20px;background-color:#646cff;color:#fff;border-radius:5px;text-decoration:none;margin-top:20px;}
+
+/* Styles for Landing - Features */
+.features {display:flex;flex-wrap:wrap;justify-content:center;gap:20px;padding:50px;} .feature {background-color:#222;padding:20px;border-radius:10px;width:300px;text-align:center;} h2 {color:#fff;font-size:1.5rem;}
+
+/* Styles for Pricing - Plans */
+.pricing {display:flex;justify-content:center;gap:20px;padding:50px;} .plan {background-color:#222;padding:20px;border-radius:10px;width:250px;text-align:center;} h2 {color:#fff;font-size:1.5rem;} .price {font-size:2rem;font-weight:bold;}
+
+/* Styles for About - Our Story */
+body{background-color:#111;color:#eee;font-family:sans-serif;text-align:center;padding:50px;} h2 {font-size:2rem;margin-bottom:1rem;} p {font-size:1.2rem;}
+
+/* Styles for Contact - Form */
+body{background-color:#111;color:#eee;font-family:sans-serif;padding:50px;} form {display:flex;flex-direction:column;width:300px;margin:0 auto;} label {margin-bottom:5px;} input, textarea {background-color:#222;color:#eee;border:1px solid #333;padding:10px;margin-bottom:10px;border-radius:5px;} button {background-color:#646cff;color:#fff;border:none;padding:10px;border-radius:5px;cursor:pointer;}
