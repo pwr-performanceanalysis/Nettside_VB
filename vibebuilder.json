@@ -12,7 +12,7 @@
       },
       {
         "name": "Features",
-        "content": "<section style=\"background-color: #111827; padding: 80px 0; color: #ffffff;\"><div style=\"display: flex; justify-content: space-around; flex-wrap: wrap;\"><div style=\"width: 300px; margin: 20px; text-align: center;\"><img src=\"icon_placeholder.png\" alt=\"Icon\" style=\"width: 50px; height: 50px; margin-bottom: 10px;\"><h3>Feature 1</h3><p>Description of the first feature and its benefits.</p></div><div style=\"width: 300px; margin: 20px; text-align: center;\"><img src=\"icon_placeholder.png\" alt=\"Icon\" style=\"width: 50px; height: 50px; margin-bottom: 10px;\"><h3>Feature 2</h3><p>Description of the second feature and its benefits.</p></div><div style=\"width: 300px; margin: 20px; text-align: center;\"><img src=\"icon_placeholder.png\" alt=\"Icon\" style=\"width: 50px; height: 50px; margin-bottom: 10px;\"><h3>Feature 3</h3><p>Description of the third feature and its benefits.</p></div></div></section>"
+        "content": "<!DOCTYPE html>\n<html lang=\"no\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Gjør dette sånt</title>\n  <style>\n    /* No specific styling provided in the prompt.  Add styling here as needed. */\n    body {\n      font-family: sans-serif;\n    }\n  </style>\n</head>\n<body>\n\n  <p>Jeg forstår ikke hva \"gjør dette sånt\" betyr. Vennligst gi meg mer spesifikke instruksjoner.</p>\n\n  <script>\n    // No specific JavaScript functionality requested in the prompt. Add any JavaScript code as needed.\n  </script>\n\n</body>\n</html>\n```\n"
       },
       {
         "name": "Footer",
