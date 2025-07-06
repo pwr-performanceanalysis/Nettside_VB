@@ -6,34 +6,61 @@ const Hero = () => {
   return (
     <>
       <style>{`
-  .hero-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    text-align: center;
-    background: linear-gradient(45deg, #f0f4f8, #d9e2ec);
-    color: #1e3a8a;
-    padding: 2rem;
-    font-family: 'Inter', sans-serif;
-  }
-  .hero-container h1 {
-    font-size: 3.5rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-  }
-  .hero-container p {
-    font-size: 1.25rem;
-    max-width: 600px;
-    color: #3b5998;
-  }
+body {
+  background-color: #222;
+  color: #fff;
+}
+
+a {
+  color: #87CEEB;
+}
+
+a:hover {
+  color: #ADD8E6;
+}
+
+.container {
+  background-color: #333;
+  border: 1px solid #555;
+}
+
+.header {
+  background-color: #444;
+}
+
+.footer {
+  background-color: #444;
+}
+
+button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background-color: #777;
+}
 `}</style>
-      <div dangerouslySetInnerHTML={{ __html: `<div class="hero-container">
-  <h1>Welcome to VibeBuilder</h1>
-  <p>Your AI-powered partner for building stunning websites, one vibe at a time.</p>
-</div>` }} />
+      <div dangerouslySetInnerHTML={{ __html: `<!DOCTYPE html>
+<html>
+<head>
+  <title>Dark Mode Example</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Welcome</h1>
+    </div>
+    <p>This is a dark mode example.</p>
+    <a href="#">Link</a>
+    <button>Click me</button>
+    <div class="footer">
+      <p>&copy; 2024</p>
+    </div>
+  </div>
+</body>
+</html>` }} />
     </>
   );
 };
